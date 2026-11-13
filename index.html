@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#090607">
-<meta name="description" content="TeiguLyrics — Akame ga Kill! evreninden ilham alan özgün anime müzikleri ve sözleri.">
-<title>TEIGU LYRICS | Akame ga Kill!</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Zen+Old+Mincho:wght@700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090607">
+  <meta name="description" content="TeiguLyrics — Akame ga Kill! evrenine odaklanan içerik profili.">
+  <title>TeiguLyrics | Akame ga Kill!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Zen+Old+Mincho:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="background"></div><div class="background-overlay"></div>
-<nav class="navbar"><a class="navbar-logo" href="#" aria-label="TeiguLyrics ana sayfa"><span>TEIGU</span> LYRICS</a><a class="nav-link" href="#tracks">Parçalar <i class="fa-solid fa-arrow-down"></i></a></nav>
-<main class="main">
-<header class="hero">
-<div class="eyebrow"><span class="pulse"></span> AKAME GA KILL! EVRENİNDEN İLHAMLA</div>
-<h1>Her savaşın<br><span>bir yankısı var.</span></h1>
-<p class="lead">Night Raid'in gölgesinden yükselen özgün anime müzikleri ve sözleri. İmparatorluğa karşı sesini bul.</p>
-<div class="hero-actions"><a class="button primary" href="#tracks"><i class="fa-solid fa-play"></i> Parçaları keşfet</a><a class="button secondary" href="#about">TeiguLyrics hakkında</a></div>
-<div class="hero-mark" aria-hidden="true">帝具</div>
-</header>
-<section class="section" id="tracks"><div class="section-top"><div><p class="kicker">NIGHT RAID ARŞİVİ</p><h2>Özgün parçalar</h2></div><span class="count" id="trackCount"></span></div><div class="track-grid" id="tracksGrid"></div></section>
-<section class="section about" id="about"><p class="kicker">BİR TEIGU GİBİ</p><h2>Müziğin de bir gücü var.</h2><p id="aboutText"></p><div class="motto"><span>—</span> Özgürlüğün bedeli unutulmamak.</div></section>
-<section class="section"><div class="section-top"><div><p class="kicker">DÜNYANIN KARANLIK YÜZÜ</p><h2>İlham kaynakları</h2></div></div><div class="task-grid" id="themesGrid"></div></section>
-<footer><a class="navbar-logo" href="#"><span>TEIGU</span> LYRICS</a><p id="footerText"></p><p class="disclaimer">Akame ga Kill! ve karakterleri ilgili hak sahiplerine aittir. TeiguLyrics hayran yapımı, bağımsız bir projedir.</p></footer>
-</main><div id="errorMessage" class="error-message" hidden>İçerik yüklenemedi. data.json dosyasını kontrol edin.</div>
-<script src="app.js"></script>
-</body></html>
+  <div class="background"></div>
+  <div class="background-overlay"></div>
+  <nav class="navbar"><div class="navbar-logo" id="navbarTitle">TEIGU<span>LYRICS</span></div></nav>
+  <main class="main">
+    <header class="profile">
+      <div class="avatar-wrapper">
+        <div id="avatarFallback" class="avatar-fallback" aria-hidden="true">帝具</div>
+        <img id="avatar" class="avatar" src="" alt="">
+      </div>
+      <div class="name-line"><h1 class="name" id="name"></h1><i id="verified" class="fa-solid fa-circle-check verified" aria-label="Doğrulanmış profil"></i></div>
+      <p class="username" id="username"></p>
+      <div class="badges" id="badges"></div>
+      <p class="description" id="description"></p>
+    </header>
+    <section class="section" id="aboutSection">
+      <h2 class="section-heading" id="aboutHeading"></h2>
+      <div class="glass"><p class="about-text" id="aboutText"></p></div>
+    </section>
+    <section class="section" id="tasksSection">
+      <h2 class="section-heading" id="tasksHeading"></h2>
+      <div class="task-grid" id="tasksGrid"></div>
+    </section>
+    <section class="section" id="companySection">
+      <h2 class="section-heading"><i class="fa-solid fa-mask"></i> Odaklandığı Evren</h2>
+      <div class="glass company">
+        <div class="company-emblem" aria-hidden="true">赤</div>
+        <div class="company-info"><h3 id="companyName"></h3><p id="companyDescription"></p><a id="companyLink" class="company-link" target="_blank" rel="noopener noreferrer" hidden></a></div>
+      </div>
+    </section>
+    <section class="section" id="socialSection">
+      <h2 class="section-heading" id="socialHeading"></h2>
+      <div class="glass"><div class="socials" id="socialLinks"></div></div>
+    </section>
+    <footer><strong id="footerBrand"></strong><p id="footerCopyright"></p><p id="footerCredit"></p><p class="disclaimer">Akame ga Kill! ve karakterleri ilgili hak sahiplerine aittir. Bu, bağımsız bir hayran profilidir.</p></footer>
+  </main>
+  <div id="errorMessage" class="error-message" hidden>Profil bilgileri yüklenemedi. data.json dosyasını kontrol edin.</div>
+  <script src="app.js"></script>
+</body>
+</html>
