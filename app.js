@@ -1,5 +1,6 @@
 
 async function loadProfile() {
+  const isTurkish = window.location.pathname.startsWith('/tr');
   const $ = (id) => document.getElementById(id);
 
   function safeUrl(value) {
@@ -17,7 +18,7 @@ async function loadProfile() {
   }
 
   try {
-    const response = await fetch('./data.json');
+    const response = await fetch(isTurkish ? '/tr/data.json' : '/data.json');
 
     if (!response.ok) {
       throw new Error('data.json yüklenemedi.');
@@ -164,7 +165,7 @@ async function loadProfile() {
 
     const message = document.createElement('div');
     message.className = 'error-message';
-    message.textContent = 'Site yüklenemedi. data.json dosyasını kontrol et.';
+    message.textContent = isTurkish ? 'Site yüklenemedi. Lütfen sayfayı yenileyin.' : 'The site could not load. Please refresh the page.';
     document.body.appendChild(message);
   }
 }

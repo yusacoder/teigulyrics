@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="TEIGU LYRICS kişisel profil sitesi">
+
+  <title>TEIGU LYRICS</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/language.css">
+</head>
+
+<body>
+
+  <div class="background"></div>
+  <div class="background-overlay"></div>
+
+  <nav class="navbar" aria-label="Ana gezinme">
+    <a href="/tr/" class="navbar-logo" id="navbarLogo">TEIGU LYRICS</a>
+    <div class="language-switch" aria-label="Dil seçimi"><a href="/" lang="en" hreflang="en">EN</a><span aria-hidden="true">/</span><a href="/tr/" lang="tr" hreflang="tr" aria-current="page">TR</a></div>
+  </nav>
+
+  <main class="main">
+
+    <section class="profile">
+
+      <div class="avatar-wrapper">
+        <img id="avatar" class="avatar" src="" alt="Profil fotoğrafı">
+      </div>
+
+      <div class="name-line">
+        <h1 class="name" id="name">TEIGU LYRICS</h1>
+        <i id="verified" class="fa-solid fa-circle-check verified"></i>
+      </div>
+
+      <p class="username" id="username">@teigulyrics</p>
+
+      <div class="badges" id="badges"></div>
+
+      <p class="description" id="description"></p>
+
+    </section>
+
+    <section class="section">
+      <h2 class="section-heading">
+        <i class="fa-regular fa-user"></i>
+        HAKKIMDA
+      </h2>
+
+      <div class="glass">
+        <p class="about-text" id="aboutDescription"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-heading">
+        <i class="fa-solid fa-layer-group"></i>
+        ÇALIŞMALARIM
+      </h2>
+
+      <div class="task-grid" id="tasks"></div>
+    </section>
+
+    <section class="section" id="companySection">
+      <h2 class="section-heading">
+        <i class="fa-solid fa-building"></i>
+        BAĞLI OLDUĞUM EKİP
+      </h2>
+
+      <div class="glass company">
+        <img id="companyLogo" class="company-logo" src="" alt="Ekip logosu">
+
+        <div class="company-info">
+          <h3 id="companyName"></h3>
+          <p id="companyRole"></p>
+          <a id="companyLink" class="company-link" href="#" target="_blank" rel="noopener noreferrer">
+            Web sitesini ziyaret et <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-heading">
+        <i class="fa-solid fa-link"></i>
+        SOSYAL MEDYA
+      </h2>
+
+      <div class="glass">
+        <div class="socials" id="socials"></div>
+      </div>
+    </section>
+
+    <footer>
+      <strong id="footerName">TEIGU LYRICS</strong>
+      <p id="footerCopyright"></p>
+      <p class="footer-credit">Personal Profile</p>
+    </footer>
+
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

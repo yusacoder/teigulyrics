@@ -1,0 +1,96 @@
+{
+  "profile": {
+    "name": "TEIGU LYRICS",
+    "username": "@teigulyrics",
+    "avatar": "https://i.pinimg.com/474x/e0/22/26/e02226426a9e197bbab2f7395cda55b3.jpg",
+    "verified": true,
+    "description": "Akame ga Kill! • Anime Content Creator\nAkame ga Kill evrenini, karakterlerini ve hikâyelerini kendi tarzımla paylaşıyorum.",
+    "location": "Türkiye"
+  },
+  "badges": [
+    {
+      "text": "AKAME GA KILL",
+      "type": "anime"
+    },
+    {
+      "text": "İÇERİK ÜRETİCİSİ",
+      "type": "creator"
+    },
+    {
+      "text": "ETERNAL PRODUCTION",
+      "type": "staff"
+    }
+  ],
+  "appearance": {
+    "backgroundImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQbO_UZ2L-rx9XizMm71gjgbq1OfT2SmnF2grejlntlDSzaeNcF_vCZbwv&s=10",
+    "backgroundBlur": 5,
+    "backgroundDarkness": 0.45,
+    "backgroundZoom": 1.04,
+    "navbarOpacity": 0.03,
+    "navbarBlur": 16,
+    "cardOpacity": 0.025,
+    "cardBlur": 12,
+    "elementOpacity": 0.055,
+    "elementBlur": 12,
+    "borderOpacity": 0.15,
+    "accentColor": "#e32636"
+  },
+  "about": {
+    "title": "HAKKIMDA",
+    "description": "Merhaba, ben Teigu Lyrics.\n\nAkame ga Kill! başta olmak üzere anime dünyasına ilgi duyuyor, özellikle karakterler, hikâyeler ve unutulmaz sahneler üzerine içerikler üretiyorum.\n\nAmacım, sevdiğim anime evrenlerini kendi tarzımla insanlarla buluşturmak ve anime topluluğuna katkı sağlamak."
+  },
+  "tasks": [
+    {
+      "icon": "fa-solid fa-masks-theater",
+      "title": "Akame ga Kill İçerikleri",
+      "description": "Akame ga Kill karakterleri, olayları ve anime evreni hakkında paylaşımlar."
+    },
+    {
+      "icon": "fa-solid fa-film",
+      "title": "Anime Editleri",
+      "description": "Anime sahneleri, karakter editleri ve özel video içerikleri."
+    },
+    {
+      "icon": "fa-solid fa-users",
+      "title": "Anime Topluluğu",
+      "description": "Anime severlerle etkileşim ve ortak ilgi alanları üzerine paylaşımlar."
+    }
+  ],
+  "company": {
+    "name": "Eternal Production",
+    "role": "Yetenek Ajansı & Anime İçerik Üretim Merkezi",
+    "logo": "https://photograph.eternalproduction.net/eternal-logo.jpg",
+    "url": "https://eternalproduction.net",
+    "enabled": true
+  },
+  "socials": [
+    {
+      "name": "Instagram",
+      "icon": "fa-brands fa-instagram",
+      "url": "https://instagram.com/teigulyrics",
+      "enabled": true
+    },
+    {
+      "name": "YouTube",
+      "icon": "fa-brands fa-youtube",
+      "url": "https://youtube.com/",
+      "enabled": false
+    },
+    {
+      "name": "TikTok",
+      "icon": "fa-brands fa-tiktok",
+      "url": "https://tiktok.com/@teigulyrics",
+      "enabled": true
+    },
+    {
+      "name": "Discord",
+      "icon": "fa-brands fa-discord",
+      "url": "",
+      "enabled": false
+    }
+  ],
+  "footer": {
+    "text": "TEIGU LYRICS",
+    "copyright": "Tüm hakları saklıdır."
+  }
+}\n

@@ -4,7 +4,7 @@
     "username": "@teigulyrics",
     "avatar": "https://i.pinimg.com/474x/e0/22/26/e02226426a9e197bbab2f7395cda55b3.jpg",
     "verified": true,
-    "description": "Akame ga Kill! • Anime Content Creator\nAkame ga Kill evrenini, karakterlerini ve hikâyelerini kendi tarzımla paylaşıyorum.",
+    "description": "Akame ga Kill! • Anime Content Creator\nI share the Akame ga Kill universe, its characters, and stories in my own style.",
     "location": "Türkiye"
   },
   "badges": [
@@ -13,7 +13,7 @@
       "type": "anime"
     },
     {
-      "text": "İÇERİK ÜRETİCİSİ",
+      "text": "CONTENT CREATOR",
       "type": "creator"
     },
     {
@@ -36,29 +36,29 @@
     "accentColor": "#e32636"
   },
   "about": {
-    "title": "HAKKIMDA",
-    "description": "Merhaba, ben Teigu Lyrics.\n\nAkame ga Kill! başta olmak üzere anime dünyasına ilgi duyuyor, özellikle karakterler, hikâyeler ve unutulmaz sahneler üzerine içerikler üretiyorum.\n\nAmacım, sevdiğim anime evrenlerini kendi tarzımla insanlarla buluşturmak ve anime topluluğuna katkı sağlamak."
+    "title": "ABOUT ME",
+    "description": "Hi, I'm Teigu Lyrics.\n\nI'm passionate about anime, especially Akame ga Kill!, and create content about its characters, stories, and unforgettable scenes.\n\nMy goal is to share the anime worlds I love in my own style and contribute to the anime community."
   },
   "tasks": [
     {
       "icon": "fa-solid fa-masks-theater",
-      "title": "Akame ga Kill İçerikleri",
-      "description": "Akame ga Kill karakterleri, olayları ve anime evreni hakkında paylaşımlar."
+      "title": "Akame ga Kill Content",
+      "description": "Posts about Akame ga Kill characters, events, and universe."
     },
     {
       "icon": "fa-solid fa-film",
-      "title": "Anime Editleri",
-      "description": "Anime sahneleri, karakter editleri ve özel video içerikleri."
+      "title": "Anime Edits",
+      "description": "Anime scenes, character edits, and original video content."
     },
     {
       "icon": "fa-solid fa-users",
-      "title": "Anime Topluluğu",
-      "description": "Anime severlerle etkileşim ve ortak ilgi alanları üzerine paylaşımlar."
+      "title": "Anime Community",
+      "description": "Connecting with anime fans and sharing common interests."
     }
   ],
   "company": {
     "name": "Eternal Production",
-    "role": "Yetenek Ajansı & Anime İçerik Üretim Merkezi",
+    "role": "Talent Agency & Anime Content Studio",
     "logo": "https://photograph.eternalproduction.net/eternal-logo.jpg",
     "url": "https://eternalproduction.net",
     "enabled": true
@@ -93,4 +93,4 @@
     "text": "TEIGU LYRICS",
     "copyright": "All rights reserved."
   }
-}
+}\n
