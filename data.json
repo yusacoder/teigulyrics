@@ -1,17 +1,16 @@
-
 {
   "profile": {
     "name": "TEIGU LYRICS",
     "username": "@teigulyrics",
     "avatar": "https://i.pinimg.com/474x/e0/22/26/e02226426a9e197bbab2f7395cda55b3.jpg",
     "verified": true,
-    "description": "Lyrics • Anime\nKendi dünyamı kendi tarzımla oluşturuyorum.",
+    "description": "Akame ga Kill! • Anime Content Creator\nAkame ga Kill evrenini, karakterlerini ve hikâyelerini kendi tarzımla paylaşıyorum.",
     "location": "Türkiye"
   },
   "badges": [
     {
-      "text": "",
-      "type": ""
+      "text": "AKAME GA KILL",
+      "type": "anime"
     },
     {
       "text": "İÇERİK ÜRETİCİSİ",
@@ -38,23 +37,23 @@
   },
   "about": {
     "title": "HAKKIMDA",
-    "description": "Merhaba, ben Teigu Lyrics. anime ve dijital içerik dünyasıyla ilgileniyorum.\n\nKendi tarzımı yansıtan içerikler üretmeyi ve dijital projeler geliştirmeyi seviyorum."
+    "description": "Merhaba, ben Teigu Lyrics.\n\nAkame ga Kill! başta olmak üzere anime dünyasına ilgi duyuyor, özellikle karakterler, hikâyeler ve unutulmaz sahneler üzerine içerikler üretiyorum.\n\nAmacım, sevdiğim anime evrenlerini kendi tarzımla insanlarla buluşturmak ve anime topluluğuna katkı sağlamak."
   },
   "tasks": [
     {
-      "icon": "fa-solid fa-music",
-      "title": "Lyrics İçerikleri",
-      "description": "Müzik ve şarkı sözleri üzerine içerik üretimi."
+      "icon": "fa-solid fa-masks-theater",
+      "title": "Akame ga Kill İçerikleri",
+      "description": "Akame ga Kill karakterleri, olayları ve anime evreni hakkında paylaşımlar."
+    },
+    {
+      "icon": "fa-solid fa-film",
+      "title": "Anime Editleri",
+      "description": "Anime sahneleri, karakter editleri ve özel video içerikleri."
     },
     {
       "icon": "fa-solid fa-users",
-      "title": "Topluluk",
-      "description": "Dijital topluluk ve sosyal medya çalışmaları."
-    },
-    {
-      "icon": "fa-solid fa-laptop-code",
-      "title": "Dijital Projeler",
-      "description": "Yeni fikirler ve dijital projeler üzerinde çalışma."
+      "title": "Anime Topluluğu",
+      "description": "Anime severlerle etkileşim ve ortak ilgi alanları üzerine paylaşımlar."
     }
   ],
   "company": {
