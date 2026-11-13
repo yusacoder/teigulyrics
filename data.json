@@ -1,0 +1,23 @@
+{
+  "site": {
+    "title": "TEIGU LYRICS | Akame ga Kill!",
+    "about": "TeiguLyrics, Akame ga Kill! dünyasının karanlık atmosferinden, Night Raid'in direnişinden ve karakterlerinin kişisel mücadelelerinden ilham alan bağımsız bir anime müzik projesidir. Her parça bu evrenin başka bir duygusuna ses verir: kayıp, sadakat, öfke ve özgürlük umudu.",
+    "footer": "Karanlığın içinden yükselen sesler · Akame ga Kill! hayran projesi · 2026"
+  },
+  "appearance": {
+    "accentColor": "#e53a43",
+    "accentDark": "#791a22",
+    "backgroundDarkness": 0.42
+  },
+  "tracks": [
+    {"title":"Kızıl Gece","subtitle":"Direnişin ilk kıvılcımı","character":"NIGHT RAID","sigil":"夜","color":"#a21f2d"},
+    {"title":"Murasame","subtitle":"Tek bir kesik, sonsuz bir bedel","character":"AKAME","sigil":"村雨","color":"#68151f"},
+    {"title":"İmparatorluğun Gölgesi","subtitle":"Yozlaşmış tahtın ardında","character":"KARANLIK","sigil":"帝都","color":"#422027"},
+    {"title":"Özgürlüğe Doğru","subtitle":"Kaybedenlerin bile taşıdığı umut","character":"DEVRİM","sigil":"自由","color":"#9b2831"}
+  ],
+  "themes": [
+    {"title":"Direniş","description":"Night Raid'in adalet arayışı ve İmparatorluğa karşı verdiği mücadele.","icon":"fa-solid fa-fire-flame-curved"},
+    {"title":"Bedel","description":"Teigu gücünün ve savaşın karakterlerden aldığı ağır karşılık.","icon":"fa-solid fa-khanda"},
+    {"title":"Bağlılık","description":"Karanlıkta birbirine tutunan yoldaşların hikâyeleri.","icon":"fa-solid fa-link"}
+  ]
+}
