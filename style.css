@@ -444,3 +444,13 @@ footer strong {
     scroll-behavior: auto !important;
   }
 }
+/* Japon esintili navbar yazısı */
+.navbar-logo {
+    font-family: "Noto Serif JP", serif;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #e32636;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(227, 38, 54, 0.18);
+}
