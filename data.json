@@ -1,23 +1,97 @@
+
 {
-  "site": {
-    "title": "TEIGU LYRICS | Akame ga Kill!",
-    "about": "TeiguLyrics, Akame ga Kill! dünyasının karanlık atmosferinden, Night Raid'in direnişinden ve karakterlerinin kişisel mücadelelerinden ilham alan bağımsız bir anime müzik projesidir. Her parça bu evrenin başka bir duygusuna ses verir: kayıp, sadakat, öfke ve özgürlük umudu.",
-    "footer": "Karanlığın içinden yükselen sesler · Akame ga Kill! hayran projesi · 2026"
+  "profile": {
+    "name": "TEIGU LYRICS",
+    "username": "@teigulyrics",
+    "avatar": "https://placehold.co/400x400/171717/ffffff?text=TL",
+    "verified": true,
+    "description": "Music • Lyrics • Anime\nKendi dünyamı kendi tarzımla oluşturuyorum.",
+    "location": "Türkiye"
   },
-  "appearance": {
-    "accentColor": "#e53a43",
-    "accentDark": "#791a22",
-    "backgroundDarkness": 0.42
-  },
-  "tracks": [
-    {"title":"Kızıl Gece","subtitle":"Direnişin ilk kıvılcımı","character":"NIGHT RAID","sigil":"夜","color":"#a21f2d"},
-    {"title":"Murasame","subtitle":"Tek bir kesik, sonsuz bir bedel","character":"AKAME","sigil":"村雨","color":"#68151f"},
-    {"title":"İmparatorluğun Gölgesi","subtitle":"Yozlaşmış tahtın ardında","character":"KARANLIK","sigil":"帝都","color":"#422027"},
-    {"title":"Özgürlüğe Doğru","subtitle":"Kaybedenlerin bile taşıdığı umut","character":"DEVRİM","sigil":"自由","color":"#9b2831"}
+  "badges": [
+    {
+      "text": "YETKİLİ",
+      "type": "admin"
+    },
+    {
+      "text": "İÇERİK ÜRETİCİSİ",
+      "type": "creator"
+    },
+    {
+      "text": "ETERNAL PRODUCTION",
+      "type": "staff"
+    }
   ],
-  "themes": [
-    {"title":"Direniş","description":"Night Raid'in adalet arayışı ve İmparatorluğa karşı verdiği mücadele.","icon":"fa-solid fa-fire-flame-curved"},
-    {"title":"Bedel","description":"Teigu gücünün ve savaşın karakterlerden aldığı ağır karşılık.","icon":"fa-solid fa-khanda"},
-    {"title":"Bağlılık","description":"Karanlıkta birbirine tutunan yoldaşların hikâyeleri.","icon":"fa-solid fa-link"}
-  ]
+  "appearance": {
+    "backgroundImage": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1920&q=85",
+    "backgroundBlur": 0,
+    "backgroundDarkness": 0.45,
+    "backgroundZoom": 1.04,
+    "navbarOpacity": 0.03,
+    "navbarBlur": 16,
+    "cardOpacity": 0.025,
+    "cardBlur": 12,
+    "elementOpacity": 0.055,
+    "elementBlur": 12,
+    "borderOpacity": 0.15,
+    "accentColor": "#e32636"
+  },
+  "about": {
+    "title": "HAKKIMDA",
+    "description": "Merhaba, ben Teigu Lyrics. Müzik, anime ve dijital içerik dünyasıyla ilgileniyorum.\n\nKendi tarzımı yansıtan içerikler üretmeyi ve dijital projeler geliştirmeyi seviyorum."
+  },
+  "tasks": [
+    {
+      "icon": "fa-solid fa-music",
+      "title": "Lyrics İçerikleri",
+      "description": "Müzik ve şarkı sözleri üzerine içerik üretimi."
+    },
+    {
+      "icon": "fa-solid fa-users",
+      "title": "Topluluk",
+      "description": "Dijital topluluk ve sosyal medya çalışmaları."
+    },
+    {
+      "icon": "fa-solid fa-laptop-code",
+      "title": "Dijital Projeler",
+      "description": "Yeni fikirler ve dijital projeler üzerinde çalışma."
+    }
+  ],
+  "company": {
+    "name": "Eternal Production",
+    "role": "Yetenek Ajansı & Anime İçerik Üretim Merkezi",
+    "logo": "https://photograph.eternalproduction.net/eternal-logo.jpg",
+    "url": "https://eternalproduction.net",
+    "enabled": true
+  },
+  "socials": [
+    {
+      "name": "Instagram",
+      "icon": "fa-brands fa-instagram",
+      "url": "https://instagram.com/",
+      "enabled": true
+    },
+    {
+      "name": "YouTube",
+      "icon": "fa-brands fa-youtube",
+      "url": "https://youtube.com/",
+      "enabled": true
+    },
+    {
+      "name": "TikTok",
+      "icon": "fa-brands fa-tiktok",
+      "url": "https://tiktok.com/",
+      "enabled": true
+    },
+    {
+      "name": "Discord",
+      "icon": "fa-brands fa-discord",
+      "url": "",
+      "enabled": false
+    }
+  ],
+  "footer": {
+    "text": "TEIGU LYRICS",
+    "copyright": "All rights reserved."
+  }
 }
