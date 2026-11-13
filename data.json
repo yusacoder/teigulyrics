@@ -67,19 +67,19 @@
     {
       "name": "Instagram",
       "icon": "fa-brands fa-instagram",
-      "url": "https://instagram.com/",
+      "url": "https://instagram.com/teigulyrics",
       "enabled": true
     },
     {
       "name": "YouTube",
       "icon": "fa-brands fa-youtube",
       "url": "https://youtube.com/",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "TikTok",
       "icon": "fa-brands fa-tiktok",
-      "url": "https://tiktok.com/",
+      "url": "https://tiktok.com/@teigulyrics",
       "enabled": true
     },
     {
